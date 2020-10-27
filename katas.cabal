@@ -36,6 +36,7 @@ executable katas
                        , Katas.ChurchNums
                        , Katas.SimpleSQLEngine
                        , Katas.Parsable
+                       , Katas.ShortestList
     main-is: Main.hs
     other-modules:
         Katas.AlgebraicISO
