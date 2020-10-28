@@ -37,6 +37,7 @@ executable katas
                        , Katas.SimpleSQLEngine
                        , Katas.Parsable
                        , Katas.ShortestList
+                       , Katas.Calculator
     main-is: Main.hs
     other-modules:
         Katas.AlgebraicISO
