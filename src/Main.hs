@@ -16,3 +16,4 @@ import Katas.Imperative
 
 main :: IO ()
 main = putStrLn "Hello, Nix & Haskell!"
+
