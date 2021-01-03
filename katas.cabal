@@ -39,6 +39,7 @@ executable katas
                        , Katas.ShortestList
                        , Katas.Calculator
                        , Katas.Tagless
+                       , Katas.Singletons
     main-is: Main.hs
     other-modules:
         Katas.AlgebraicISO
