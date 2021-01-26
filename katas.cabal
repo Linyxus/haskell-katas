@@ -6,7 +6,7 @@ cabal-version: >= 1.18
 build-type: Simple
 
 executable katas
-    build-depends: base < 5, mtl, containers, lens
+    build-depends: base < 5, mtl, containers, lens, random
     other-modules:       Katas.AlgebraicISO
                        , Katas.BalancedParens
                        , Katas.Befunge93
