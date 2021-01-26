@@ -1,1 +1,1 @@
-(import ./release.nix).katas.env
+(import ./default.nix).project.env
