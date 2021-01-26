@@ -1,14 +1,10 @@
-{ mkDerivation, base, containers, lens, megaparsec, mtl, random
-, stdenv, text
-}:
+{ mkDerivation, base, containers, lens, lib, mtl }:
 mkDerivation {
   pname = "katas";
   version = "1.0.0";
   src = ./.;
   isLibrary = false;
   isExecutable = true;
-  executableHaskellDepends = [
-    base containers lens megaparsec mtl random text
-  ];
-  license = stdenv.lib.licenses.bsd3;
+  executableHaskellDepends = [ base containers lens mtl ];
+  license = lib.licenses.bsd3;
 }
