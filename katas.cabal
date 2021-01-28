@@ -1,4 +1,3 @@
-cabal-version: >=1.18
 name: katas
 version: 1.0.0
 license: BSD3
