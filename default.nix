@@ -1,6 +1,3 @@
-let
-  pkgs = import <nixpkgs> { };
+{ nixpkgs ? import <nixpkgs> {}, compiler ? "ghc8107" }:
+nixpkgs.pkgs.haskell.packages.${compiler}.callPackage ./katas.nix { }
 
-in
-  { project = pkgs.haskellPackages.callPackage ./project.nix { };
-  }
