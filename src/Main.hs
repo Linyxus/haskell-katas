@@ -13,6 +13,7 @@ import Katas.AlgebraicISO
 import Katas.IsThatALine
 import Katas.SimpleLens
 import Katas.Imperative
+import Katas.EvalMathExpr
 
 main :: IO ()
 main = putStrLn "Hello, Nix & Haskell!"
